@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://static.vecteezy.com/system/resources/previews/003/305/842/non_2x/wood-board-texture-background-free-vector.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+.paper {
+    /* background-color: blue; */
+    height: 125vh;
+    margin-top: 6%;
+}
+
+.container {
+    width: 400px;
+    height: 580px;
+    padding: 30px;
+    /* background: green;
+   /* border: 2px solid rgb(231, 143, 10);
+    border-radius: 10px;
+    backdrop-filter: blur(15px); */
+    position: absolute;
+}
+
+h1 {
+    color: rgb(0, 119, 255);
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.box input {
+    flex: 1;
+    outline: none;
+    padding: 10px 10px 10px 20px;
+    border: 0;
+    border-radius: 1em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.05);
+    font-size: 15px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all ease-in-out 300ms;
+    text-indent: 1%;
+}
+
+.box input:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    transform: translate(0px, -10px) scale(1.2);
+}
+
+.todos {
+    background-color: rgb(228, 225, 225);
+    padding: 10px;
+    display: grid;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.05);
+}
+
+.task {
+    display: grid;
+    grid-template-columns: 1fr 15fr 2.5fr 2.5fr;
+    align-items: center;
+    gap: 20px;
+    grid-template-rows: auto;
+    cursor: pointer;
+}
+
+.task:not(:first-child) {
+    margin-top: 1em;
+}
+
+#button {
+    display: inline-block;
+    background: #4285f4;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 17px 10px -10px rgba(31, 30, 30, 0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+#button:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    transform: translate(0px, -10px) scale(1.2);
+}
+
+.edit img {
+    height: 23px;
+    width: 23px;
+}
+
+.edit {
+    border: 1px solid rgb(105, 107, 105);
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+.delete img {
+    height: 23px;
+    width: 23px;
+}
+
+.delete {
+    border: 1px solid rgb(105, 107, 105);
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+/* ------------- Responsive ---------------- */
+
